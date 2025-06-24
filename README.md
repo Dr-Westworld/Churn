@@ -39,4 +39,5 @@ df['ChargeDiff'] = df['MonthlyCharges'] - df['AvgCharge']
 
 ## Lightbgm
 (only handel nan value by eda no other mathematical use)
+``Fitting 5 folds for each of 720 candidates, totalling 3600 fits``
 ![image](https://github.com/user-attachments/assets/073d1a09-7153-4e93-9747-13a755164591)
