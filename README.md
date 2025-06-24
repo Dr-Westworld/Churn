@@ -2,7 +2,7 @@
 ## Xgboost
 ![image](https://github.com/user-attachments/assets/becf4ad5-d714-42ff-bf9d-6a8e9d8bab84)
 
-(with eda like this )
+(with eda like this plus handel nan value by calculating tenture and monthly charges to fill the nan value )
 ```python
 # mapping dictionary
 gender_map = {'Male': 1, 'Female': -1}
