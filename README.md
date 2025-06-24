@@ -3,8 +3,8 @@
 ![image](https://github.com/user-attachments/assets/becf4ad5-d714-42ff-bf9d-6a8e9d8bab84)
 
 (with eda like this )
-
-# Define the same mapping dictionary
+```python
+# mapping dictionary
 gender_map = {'Male': 1, 'Female': -1}
 senior_map = {0: -1, 1: 1}
 binary_map = {'No': -1, 'Yes': 1}
@@ -35,7 +35,7 @@ df['AvgCharge'] = df.apply(
     axis=1
 )
 df['ChargeDiff'] = df['MonthlyCharges'] - df['AvgCharge']
-
+```
 
 ## Lightbgm
 (only handel nan value by eda no other mathematical use)
