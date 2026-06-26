@@ -57,6 +57,8 @@ Classification Report (Test Set):
 
 Confusion Matrix (Test Set):
 
+
+
 | | Predicted No Churn | Predicted Churn |
 |---|---|---|
 | Actual No Churn | 783 | 252 |
@@ -88,10 +90,11 @@ Memory: 12.88 GB
 Object Store Memory: 6.44 GB
 Logs:
 
+`
 Main Log: logs/xgb_experiment_20260623_195503.log
 Fits Log: logs/xgb_experiment_20260623_195503_fits.log
 Metrics Log: logs/xgb_experiment_20260623_195503_metrics.json
-
+`
 
 ## XGBoost
 The XGBoost model was trained for binary churn prediction using 36 features. It was configured with `objective='binary:logistic'`, `max_depth=6`, `min_child_weight=5`, `subsample=0.85`, `colsample_bytree=0.7`, `learning_rate=0.01`, `n_estimators=500`, `gamma=0.05`, `reg_alpha=1.0`, `reg_lambda=1.0`, and `early_stopping_rounds=50` on `cuda`.
@@ -117,9 +120,9 @@ Top feature importances:
 
 Feature importance and metrics visualizations:
 
-![Feature importance](feature_importance_20260623_200350.png)
+![Feature importance](model/feature_importance_20260623_200350.png)
 
-![Metrics](metrics_20260623_200350.png)
+![Metrics](model/metrics_20260623_200350.png)
 
 (with EDA handling NaN values by deriving tenure-based and monthly charge-based imputations)
 
