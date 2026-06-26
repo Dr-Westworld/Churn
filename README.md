@@ -38,25 +38,30 @@ JSON
 }
 Performance Metrics:
 
-Metric	Train	Validation	Test
-Accuracy	0.8182	0.7566	0.7679
-AUC	0.9171	0.8458	0.8592
-F1-Score	0.7221	0.6308	0.6465
-PR-AUC	-	-	0.7024
-CV AUC Mean ± Std	-	-	0.8391 ± 0.0184
+| Metric | Train | Validation | Test |
+|---|---|---|---|
+| Accuracy | 0.8182 | 0.7566 | 0.7679 |
+| AUC | 0.9171 | 0.8458 | 0.8592 |
+| F1-Score | 0.7221 | 0.6308 | 0.6465 |
+| PR-AUC | - | - | 0.7024 |
+| CV AUC Mean ± Std | - | - | 0.8391 ± 0.0184 |
+
 Classification Report (Test Set):
 
-Class	Precision	Recall	F1-Score	Support
-0 (No Churn)	0.9126	0.7565	0.8273	1,035
-1 (Churn)	0.5426	0.7995	0.6465	374
-Macro Avg	0.7276	0.7780	0.7369	1,409
-Weighted Avg	0.8144	0.7679	0.7793	1,409
+| Class | Precision | Recall | F1-Score | Support |
+|---|---|---|---|---|
+| 0 (No Churn) | 0.9126 | 0.7565 | 0.8273 | 1,035 |
+| 1 (Churn) | 0.5426 | 0.7995 | 0.6465 | 374 |
+| Macro Avg | 0.7276 | 0.7780 | 0.7369 | 1,409 |
+| Weighted Avg | 0.8144 | 0.7679 | 0.7793 | 1,409 |
+
 Confusion Matrix (Test Set):
 
-Code
-                Predicted No Churn  Predicted Churn
-Actual No Churn          783               252
-Actual Churn              75               299
+| | Predicted No Churn | Predicted Churn |
+|---|---|---|
+| Actual No Churn | 783 | 252 |
+| Actual Churn | 75 | 299 |
+
 Feature Importance (Top Features):
 
 is_month_to_month: 0.2095
