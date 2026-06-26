@@ -1,4 +1,10 @@
 # Chrun
+<img width="1917" height="1001" alt="Screenshot 2026-06-26 114743" src="https://github.com/user-attachments/assets/d50c6096-2f91-4330-976e-17950748cc87" />
+
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/f062aa41-2f4a-4c2f-8b7f-d9fc97c0917b" />
+
+
+
 ## Xgboost
 ![image](https://github.com/user-attachments/assets/becf4ad5-d714-42ff-bf9d-6a8e9d8bab84)
 
