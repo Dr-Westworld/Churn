@@ -61,16 +61,6 @@ PERF-6  base_params: n_estimators 2000→1000 (early_stopping handles the rest),
         XGBoost ≥1.7 (n_gpus, gpu_platform_id, gpu_device_id, force_col_wise,
         gpu_use_dp).
 
-Intentionally NOT applied
---------------------------
-  • Target encoding  — all categoricals are low-cardinality (2-4 values);
-    LabelEncoder is appropriate. Adding target encoding alongside LabelEncoder
-    on the same columns would double-encode and corrupt features.
-  • Probability calibration — changes the predict() return contract; out of
-    scope for a bug-fix pass.
-  • Ensemble — too complex; high risk of introducing new bugs.
-  • Feature selection — requires post-training evaluation; cannot be done
-    in the pipeline without a reference dataset.
 """
 
 import json
