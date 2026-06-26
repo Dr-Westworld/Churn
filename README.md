@@ -1,5 +1,5 @@
 # Chrun
-<img width="1900" height="890" alt="Screenshot 2026-06-26 114611" src="https://github.com/user-attachments/assets/849ce1bf-a65e-4d83-a0e0-09a26dc1cb20" />
+<img width="1900" height="804" alt="Screenshot 2026-06-26 114611" src="https://github.com/user-attachments/assets/3705ce81-70b1-4d21-a823-da910d8a8d3b" />
 <img width="1917" height="1001" alt="Screenshot 2026-06-26 114743" src="https://github.com/user-attachments/assets/d50c6096-2f91-4330-976e-17950748cc87" />
 <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/f062aa41-2f4a-4c2f-8b7f-d9fc97c0917b" />
 
