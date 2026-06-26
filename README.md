@@ -15,7 +15,7 @@ Class Distribution: {0: 3,104, 1: 1,121}
 Total Training Time: 511.29 seconds
 Model Parameters:
 
-JSON
+```json
 {
   "objective": "binary:logistic",
   "random_state": 42,
@@ -36,6 +36,7 @@ JSON
   "eval_metric": ["auc", "error", "logloss"],
   "early_stopping_rounds": 50
 }
+```
 Performance Metrics:
 
 | Metric | Train | Validation | Test |
