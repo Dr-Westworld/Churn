@@ -6,6 +6,7 @@
 XGBoost Experiment Results (2026-06-23)
 Experiment Name: xgb_experiment_20260623_195503
 
+
 Training Configuration:
 
 Total Fits: 30
@@ -15,6 +16,7 @@ Class Distribution: {0: 3,104, 1: 1,121}
 Total Training Time: 511.29 seconds
 Model Parameters:
 
+JSON
 ```json
 {
   "objective": "binary:logistic",
@@ -37,6 +39,9 @@ Model Parameters:
   "early_stopping_rounds": 50
 }
 ```
+
+<img width="1392" height="757" alt="image" src="https://github.com/user-attachments/assets/2362c3cd-374f-4f16-b479-dfe2e9347213" />
+
 Performance Metrics:
 
 | Metric | Train | Validation | Test |
